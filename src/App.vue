@@ -15,7 +15,7 @@
         <div v-cloak class="container">
           <div class="logo">
             <a href="#">
-              <img v-if="config.logo" :src="isDark ? config.logoDark || config.logo : config.logo" alt="dashboard logo" />
+              <img v-if="config.logo" :src="config.logo" alt="dashboard logo" />
             </a>
             <i v-if="config.icon" :class="config.icon"></i>
           </div>
